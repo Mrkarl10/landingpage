@@ -1,0 +1,57 @@
+body{
+    background-color: white;
+}
+
+.horario{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 60%;
+    left: 2%;
+    padding: 5px 15px 5px 10px
+}
+
+.info{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 5px 15px 5px 10px;
+    margin-left: 45%;
+    margin-right: 45%;
+}
+
+.direccion{
+    background-color: black;
+    color: white;
+    position: absolute;
+    top: 60%;
+    right: 2%;
+    padding: 5px 15px 5px 10px
+}
+
+.container{
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+p{
+    font-size: medium;
+}
+
+.cta-button{
+    background-color: #007bff; /* Color de fondo del botón */
+    color: white; /* Color del texto del botón */
+    padding: 10px 20px; /* Espaciado interno del botón */
+    border: none; /* Elimina el borde */
+    border-radius: 5px; /* Añade bordes redondeados */
+    font-size: 16px; /* Tamaño del texto */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón */
+    text-align: center; /* Centra el texto horizontalmente */
+    text-decoration: none; /* Elimina el subrayado del texto */
+    display: inline-block; /* Mantiene el tamaño del botón solo para el contenido */
+}
+
+.cta-button:hover{
+    background-color:green;
+    color: white;
+}
